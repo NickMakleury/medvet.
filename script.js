@@ -83,3 +83,13 @@ window.addEventListener('scroll', () => {
     topbar.classList.remove('scrolled');
   }
 });
+
+// limpar botão
+const clearButton = document.getElementById("clearFields");
+const fields = document.querySelectorAll(".field");
+
+clearButton.addEventListener("click", () => {
+  fields.forEach(field => {
+    field.value = "";
+  });
+});
