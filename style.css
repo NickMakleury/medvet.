@@ -764,3 +764,17 @@ font-size:inherit;
 .hero-stats{
   justify-items: center;
 }
+
+.topbar{
+  transition: all 0.3s ease;
+}
+
+.topbar-inner{
+  transition: all 0.3s ease;
+}
+
+.topbar.scrolled .topbar-inner{
+  padding: 10px 16px;
+  border-radius: 22px;
+  transform: scale(0.96);
+}
